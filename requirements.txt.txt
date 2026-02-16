@@ -1,0 +1,8 @@
+gradio
+scikit-learn
+joblib
+nltk
+pandas
+imbalanced-learn
+matplotlib
+seaborn
