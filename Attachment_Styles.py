@@ -135,3 +135,10 @@ plt.ylabel("Actual")
 plt.title("Confusion Matrix")
 plt.tight_layout()
 plt.show()
+
+import joblib
+
+joblib.dump(best_model, "model.pkl")
+joblib.dump(vectorizer, "vectorizer.pkl")
+joblib.dump(le, "label_encoder.pkl")
+
